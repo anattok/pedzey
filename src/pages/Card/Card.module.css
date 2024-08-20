@@ -1,0 +1,51 @@
+.card {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.img {
+    border-radius: 8px;
+    max-width: 320px;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #F3B345 !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 26.4px !important;
+    letter-spacing: 0.03em !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+
+.button.disabled {
+    /* Стили для неактивной кнопки */
+    cursor: not-allowed;
+    /* Показываем, что кнопка неактивна */
+    opacity: 0.6;
+    /* Затемняем цвет кнопки */
+    /* Пример затемнения цвета кнопки */
+    color: #000000;
+    /* Пример затемнения текста кнопки */
+}

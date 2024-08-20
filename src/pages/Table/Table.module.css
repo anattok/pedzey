@@ -1,0 +1,96 @@
+.table {
+    padding-top: 10px;
+}
+
+.table__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.table__refresh {
+    width: 20px;
+    /* Задайте ширину кнопки */
+    height: 20px;
+    /* Задайте высоту кнопки */
+    background-image: url('../../../public/pic/reload.svg');
+    /* Замените на путь к вашей картинке */
+    background-size: cover;
+    /* Масштабируем изображение чтобы оно полностью поместилось */
+    background-position: center;
+    /* Центрируем изображение */
+    background-repeat: no-repeat;
+    /* Избегаем повторения изображения */
+    border: none;
+    /* Убираем стандартную границу кнопки */
+    cursor: pointer;
+    /* Указываем, что это кнопка */
+    display: inline-block;
+    background-color: transparent;
+}
+
+.table__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 28.58px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F3B345;
+}
+
+.table__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height: 40px;
+}
+
+.table__cell {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.67px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+
+.table__cell-coins {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 16.67px;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.coin-controls {
+    display: flex;
+}
+
+.coin-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    color: #fff;
+
+}
+
+.coin-button__minus {
+    margin-left: 30px;
+}
+
+.table__names {
+    display: flex;
+    width: 95px;
+}
+
+.store-button {
+    margin-bottom: 10px;
+    width: 100px;
+}

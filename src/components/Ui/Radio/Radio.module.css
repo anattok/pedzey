@@ -1,0 +1,8 @@
+.radio {
+    width: 145px;
+}
+
+.radioLabel__name {
+    margin-left: 5px;
+    color: var(--green-color);
+}

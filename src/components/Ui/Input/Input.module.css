@@ -1,0 +1,21 @@
+.input {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: var(--primary-color);
+    border: 1px solid var(--yellow);
+    border-radius: var(--radius-20);
+    padding: 15px;
+    outline: none;
+    width: 100%;
+}
+
+.input:focus {
+    border: 1px solid var(--primary-color);
+}
+
+.input::placeholder {
+    color: var(--yellow);
+    opacity: 0.2;
+}

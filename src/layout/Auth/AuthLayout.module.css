@@ -1,0 +1,22 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+:root {
+  --font: 'Morington', sans-serif;
+  --primary-color: #052C17;
+  --primary-hover-color: #0c2916;
+
+  --secondary-color: #0b4c36;
+  --secondary-hover-color: #10563e;
+
+  --yellow: #D5A946;
+  --accent-hover-color: #0d3a74;
+
+  --text-primary-color: #347D39;
+  --text-secondary-color: #F37A5E;
+
+  --text-color: #ADBAC7;
+  --white-color: #fff;
+  --gray-color: #ADBAC7;
+  --green-color: #B9CFA0;
+
+  --dark-one-color: #2C313D;
+  --dark-two-color: #202531;
+  --dark-three-color: #222731;
+  --bg: #181B21;
+
+  --radius-5: 5px;
+  --radius-10: 10px;
+  --radius-20: 20px;
+}
+
+
+@font-face {
+  font-family: 'Morington';
+  src: url('./assets/fonts/Morington.woff') format('woff'),
+    url('/src/assets/fonts/Morington.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Morington';
+  background-color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../../../../public/pic/bg-auth.png");
+  background-size: cover;
+  background-attachment: fixed;
+  /* Делает фон статическим */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Morington';
+}

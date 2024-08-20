@@ -1,0 +1,20 @@
+.store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.58px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F3B345;
+}
+
+.table-button {
+    margin-bottom: 10px;
+    width: 100px;
+}

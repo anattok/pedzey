@@ -1,0 +1,56 @@
+.button {
+    width: 100%;
+    padding: 15px;
+    border-radius: var(--radius-20);
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.25s;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+.small {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.medium {
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+.large {
+    font-size: 18px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+.primary:hover {
+    background: var(--primary-hover-color);
+}
+
+.primary:active {
+    box-shadow: 0px 0px 8px 0px rgba(3, 3, 4, 0.3) inset;
+}
+
+.primary {
+    background: var(--yellow);
+}
+
+.secondary {
+    background: var(--secondary-color);
+}
+
+
+.primary:visited {
+    width: 100%;
+    padding: 15px;
+    border-radius: var(--radius-20);
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.25s;
+    font-size: 16px;
+    border: none;
+}

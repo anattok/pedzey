@@ -1,0 +1,48 @@
+.form__input {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 3%;
+}
+
+.form__input-name {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.login__btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #D5A946;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-align: center;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.login__logo {
+    margin-bottom: 20px;
+    pointer-events: none;
+}
+
+.login__text {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 49.5px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #D5A946;
+    margin-bottom: 40px;
+}

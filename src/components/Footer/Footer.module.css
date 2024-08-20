@@ -1,0 +1,22 @@
+.footer {
+    padding: 20px 0 40px 0;
+}
+
+.exit {
+    margin-top: 30px;
+    background-color: #F3B345 !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 26.4px !important;
+    letter-spacing: 0.03em !important;
+    text-align: center !important;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.58px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F3B345;
+}
